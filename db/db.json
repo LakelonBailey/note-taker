@@ -1,29 +1,3 @@
 {
-  "notes": [
-    {
-      "id": "0",
-      "title": "TEST TITLE",
-      "text": "TEST TEXT"
-    },
-    {
-      "id": "1",
-      "title": "TEST TITLE",
-      "text": "TEST TEXT"
-    },
-    {
-      "id": "2",
-      "title": "TEST TITLE",
-      "text": "TEST TEXT"
-    },
-    {
-      "id": "3",
-      "title": "TEST TITLE",
-      "text": "TEST TEXT"
-    },
-    {
-      "id": "4",
-      "title": "tuff",
-      "text": "tuff"
-    }
-  ]
+  "notes": []
 }

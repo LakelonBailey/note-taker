@@ -1,6 +1,6 @@
 const path = require('path');
 const router = require('express').Router();
-const { addNewNote } = require('../../lib/notes');
+const { addNewNote, deleteById } = require('../../lib/notes');
 
 const { notes } = require('../../db/db');
 
@@ -20,8 +20,10 @@ router.post('/notes', (req, res) => {
     res.sendStatus(200);
 })
 
-router.post('/notes/:id', (req, res) => {
-
+router.delete('/notes/:id', (req, res) => {
+    const id = req.params.id;
+    deleteById(id, notes);
+    res.sendStatus(200);
 })
 
 module.exports = router;
